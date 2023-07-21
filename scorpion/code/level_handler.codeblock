@@ -27,7 +27,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
@@ -100,7 +108,7 @@
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
-      "Disabled": false,
+      "Disabled": true,
       "Breakpoint": false,
       "Conditions": [],
       "Level": "none",

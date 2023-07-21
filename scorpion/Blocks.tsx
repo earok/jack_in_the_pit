@@ -6,4 +6,19 @@
       <property name="Name" value="vine_up" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="vine_up_2" type="string" />
+    </properties>
+  </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="vine_left" type="string" />
+    </properties>
+  </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="vine_left_2" type="string" />
+    </properties>
+  </tile>
 </tileset>

@@ -1,4 +1,5 @@
 === Image optimisations ===
+Reduce width of animations\cloud\cloud_00x00.png by 8 pixels to 48 to improve blit performance by 100.00%
 Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
@@ -26,55 +27,55 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35934
 Music memory (): 0
 BP Buffer memory: 131040
-core sfx/gfx memory: 21240
+core sfx/gfx memory: 25720
 Parallax memory: 0
 
 For other:
 Map cache memory: 0
 Map header cache memory: 0
-Map data memory: 13976
+Map data memory: 25344
 Map background memory: 2672
 EXE memory: 203164
-vm memory: 8488
-project memory: 3850
+vm memory: 9118
+project memory: 4402
 
-Accounted memory chip: 188214
-Accounted memory other: 232150
-Accounted memory total: 420364
+Accounted memory chip: 192694
+Accounted memory other: 244700
+Accounted memory total: 437394
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 4
-Actor Data Size: 752
-Block Count: 2
-Block Data Size: 104
+Actor Count: 5
+Actor Data Size: 940
+Block Count: 5
+Block Data Size: 260
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 1
 Sound Data Size: 24
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 27
-Animations Data Size: 432
-AnimationFrame Count: 36
-AnimationFrame Data Size: 576
-ImageFrames: 34
-ImageFrame Data Size: 1496
+Animations Count: 28
+Animations Data Size: 448
+AnimationFrame Count: 37
+AnimationFrame Data Size: 592
+ImageFrames: 38
+ImageFrame Data Size: 1672
 Sprites: 24
 Sprites Data Size: 336
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 30
-Asset bundle 0 (Core project asset bundle) Original size 21240 Crunched size 8872
-Asset bundle 1 (level1) Original size 5600 Crunched size 2042
+Asset bundle 0 (Core project asset bundle) Original size 25720 Crunched size 9808
+Asset bundle 1 (level1) Original size 5280 Crunched size 2158
 Background for map level1 Original size 2672 Crunched size 92
-Tile data for map level1 (mem restrictions:None) Original size 13976 Crunched size 814
-Header data for map level1 Original size 7996 Crunched size 250
-Project Data Original size 3850 Crunched size 1248
-Project Header Original size 4032 Crunched size 1192
+Tile data for map level1 (mem restrictions:None) Original size 25344 Crunched size 1482
+Header data for map level1 Original size 7996 Crunched size 268
+Project Data Original size 4402 Crunched size 1370
+Project Header Original size 4032 Crunched size 1190
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
-Project virtual machine (codeblocks) Original size 8488 Crunched size 2554
+Project virtual machine (codeblocks) Original size 9118 Crunched size 2730
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -92,12 +93,14 @@ ghost_anim
 
 === Possibly unused Actors ===
 player
+rock
 
 === Codeblocks by compiled size ===
 load_level: 920
-startup: 804
-player_handler: 580
+spawn_walls: 740
+player_handler: 526
 set_yresolution: 448 (Unused?)
+fn_setvine: 408
 do_teleport: 392
 flipscreen_smooth: 346 (Unused?)
 flipxymove: 306 (Unused?)
@@ -105,14 +108,16 @@ pause: 252
 pre_startup: 194
 snap_to_screen: 190 (Unused?)
 flipymove: 174 (Unused?)
-rock_handler: 172
+rock_handler: 168
 flipxmove: 158 (Unused?)
+startup: 152
 load_panel: 146
 pre_quit: 146
+spawn_clouds: 130
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 118
 unload_level: 114
-level_handler: 100
+cloud_handler: 106
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 waitforfireup: 94
@@ -140,6 +145,7 @@ load_panel_finish: 56
 destroy_actor: 54
 regenerate_screen: 52
 return: 52 (Unused?)
+level_handler: 52
 destroy_block: 48 (Unused?)
 regenerate_screen_wait: 42
 vm_registers: 26 (Unused?)
