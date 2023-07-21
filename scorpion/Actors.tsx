@@ -6,4 +6,14 @@
       <property name="Name" value="wall" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="player" type="string" />
+    </properties>
+  </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="rock" type="string" />
+    </properties>
+  </tile>
 </tileset>
