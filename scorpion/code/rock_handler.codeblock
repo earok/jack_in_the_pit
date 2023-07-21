@@ -1,7 +1,16 @@
 {
   "CompileOrder": 0,
   "DataVersion": 1,
-  "Variables": [],
+  "Variables": [
+    {
+      "Name": "myblock",
+      "Value": "0",
+      "Notes": null,
+      "PrivateSet": false,
+      "Watch": false,
+      "VariableType": "Variable"
+    }
+  ],
   "Commands": [
     {
       "Values": {},
@@ -29,9 +38,9 @@
       "Breakpoint": false,
       "Conditions": [
         {
-          "LeftSide": "control1_buttons",
-          "Comparison": "NotZero",
-          "RightSide": "",
+          "LeftSide": "actor_y / 16",
+          "Comparison": "LessThan",
+          "RightSide": "mapheighttiles - 2",
           "ComparisonNext": "End",
           "IsValid": true
         }
@@ -89,12 +98,12 @@
     {
       "Values": {},
       "DataVersion": 6,
-      "Category": "Display",
+      "Category": "Level",
       "BasicOperationType": "CommentOnly",
-      "DisplayOperationType": "SetCameraPosition",
+      "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",
       "ConditionType": "Condition",
-      "LevelOperationType": "LoadLevel",
+      "LevelOperationType": "SetBlock",
       "ActorOperationType": "SetType",
       "DialogueOperationType": "Speak",
       "DataOperationType": "Load",
@@ -121,8 +130,8 @@
       ],
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "",
-      "YPosition": "",
+      "XPosition": "actor_x >> 4",
+      "YPosition": "actor_y >> 4",
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": null,
@@ -138,7 +147,90 @@
       "WaitForFireHit": false,
       "Frames": "0",
       "CameraX": "",
-      "CameraY": "camera_y + 1",
+      "CameraY": "",
+      "CameraBox": {
+        "Left": "0",
+        "Right": "0",
+        "Up": "0",
+        "Down": "0"
+      },
+      "YRes": "",
+      "FrameWait": "",
+      "CameraFollowLeft": true,
+      "CameraFollowRight": true,
+      "CameraFollowUp": true,
+      "CameraFollowDown": true,
+      "CameraFollowInterpolateCamera": false,
+      "CameraFollowInterpolateSprites": false,
+      "Fire1Jump": false,
+      "Fire2Jump": true,
+      "UpJump": true,
+      "JumpOnHold": false,
+      "ColorIndex": "0",
+      "Color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "Sound": "",
+      "Music": "",
+      "MusicPos": "0",
+      "SpeakDelay": 1
+    },
+    {
+      "Values": {},
+      "DataVersion": 6,
+      "Category": "Level",
+      "BasicOperationType": "CommentOnly",
+      "DisplayOperationType": "SetPanel",
+      "AudioOperationType": "PlaySound",
+      "ConditionType": "Condition",
+      "LevelOperationType": "SetBlock",
+      "ActorOperationType": "SetType",
+      "DialogueOperationType": "Speak",
+      "DataOperationType": "Load",
+      "ControlOperationType": "JumpControls",
+      "CoreType": "ActorSetType",
+      "ControlMode": "Joys_1",
+      "Goto": "",
+      "Comment": "",
+      "Variable": "none",
+      "Expression": "0",
+      "Index": "0",
+      "Label": "",
+      "DiceSides": 2,
+      "Disabled": false,
+      "Breakpoint": false,
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
+      "Level": "none",
+      "NewBlock": "none",
+      "XPosition": "actor_x >> 4",
+      "YPosition": "actor_y >> 4 - 1",
+      "TeleportName": "none",
+      "XFloat": null,
+      "YFloat": null,
+      "ActorType": "none",
+      "Animation": "none",
+      "PushXPixels": "",
+      "PushYPixels": "",
+      "LookDirection": "look_upleft",
+      "ResetMovement": true,
+      "ResetAnimations": true,
+      "ShootDirType": "actor_direction",
+      "Panel": "none",
+      "WaitForFireHit": false,
+      "Frames": "0",
+      "CameraX": "",
+      "CameraY": "",
       "CameraBox": {
         "Left": "0",
         "Right": "0",
@@ -193,7 +285,15 @@
       "DiceSides": 2,
       "Disabled": false,
       "Breakpoint": false,
-      "Conditions": [],
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ],
       "Level": "none",
       "NewBlock": "none",
       "XPosition": "",
