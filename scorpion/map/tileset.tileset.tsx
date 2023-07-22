@@ -6506,7 +6506,7 @@
   <properties>
    <property name="AnimateProperties" type="bool" value="false"/>
    <property name="IsPlatform" type="bool" value="false"/>
-   <property name="IsSolid" type="bool" value="true"/>
+   <property name="IsSolid" type="bool" value="false"/>
    <property name="MD_Palette_BL" type="int" value="0"/>
    <property name="MD_Palette_BR" type="int" value="0"/>
    <property name="MD_Palette_TL" type="int" value="0"/>
@@ -6583,7 +6583,7 @@
   <properties>
    <property name="AnimateProperties" type="bool" value="false"/>
    <property name="IsPlatform" type="bool" value="false"/>
-   <property name="IsSolid" type="bool" value="true"/>
+   <property name="IsSolid" type="bool" value="false"/>
    <property name="MD_Palette_BL" type="int" value="0"/>
    <property name="MD_Palette_BR" type="int" value="0"/>
    <property name="MD_Palette_TL" type="int" value="0"/>
@@ -7364,7 +7364,7 @@
   <properties>
    <property name="AnimateProperties" type="bool" value="false"/>
    <property name="IsPlatform" type="bool" value="false"/>
-   <property name="IsSolid" type="bool" value="true"/>
+   <property name="IsSolid" type="bool" value="false"/>
    <property name="MD_Palette_BL" type="int" value="0"/>
    <property name="MD_Palette_BR" type="int" value="0"/>
    <property name="MD_Palette_TL" type="int" value="0"/>
@@ -7441,7 +7441,7 @@
   <properties>
    <property name="AnimateProperties" type="bool" value="false"/>
    <property name="IsPlatform" type="bool" value="false"/>
-   <property name="IsSolid" type="bool" value="true"/>
+   <property name="IsSolid" type="bool" value="false"/>
    <property name="MD_Palette_BL" type="int" value="0"/>
    <property name="MD_Palette_BR" type="int" value="0"/>
    <property name="MD_Palette_TL" type="int" value="0"/>

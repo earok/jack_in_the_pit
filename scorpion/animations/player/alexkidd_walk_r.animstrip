@@ -17,7 +17,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "AutoSprite"
+      "RenderType": "Normal",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "monkeylad_walk_2.png",
@@ -36,7 +38,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "AutoSprite"
+      "RenderType": "Normal",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "monkeylad_walk_3.png",
@@ -55,7 +59,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "AutoSprite"
+      "RenderType": "Normal",
+      "HighPriority": false,
+      "Background": false
     },
     {
       "Path": "monkeylad_walk_4.png",
@@ -74,7 +80,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "AutoSprite"
+      "RenderType": "Normal",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": false,
@@ -84,9 +92,5 @@
   "LinkedMap": null,
   "OnFinish": null,
   "AutoFlip": true,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "Multiplexes": 0,
-  "SpriteType": "Attached_16colors",
-  "RenderType": "Normal"
+  "Streamed": true
 }

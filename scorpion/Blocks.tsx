@@ -21,4 +21,9 @@
       <property name="Name" value="vine_left_2" type="string" />
     </properties>
   </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="invisible_solid" type="string" />
+    </properties>
+  </tile>
 </tileset>

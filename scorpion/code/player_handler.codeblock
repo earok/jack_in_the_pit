@@ -31,7 +31,7 @@
         {
           "LeftSide": "camera_y",
           "Comparison": "GreaterThan",
-          "RightSide": "112 << 4",
+          "RightSide": "114 << 4",
           "ComparisonNext": "End",
           "IsValid": true
         }

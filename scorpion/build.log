@@ -1,17 +1,10 @@
 === Image optimisations ===
-Reduce width of animations\cloud\cloud_00x00.png by 8 pixels to 48 to improve blit performance by 100.00%
 Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_swim_idle.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_idle.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_swim_idle.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_idle.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_swim_1.png by 8 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\player\monkeylad_swim_1.png by 8 pixels to 16 to reduce sprites by 2
 Reduce width of animations\player\monkeylad_swim_2.png by 8 pixels to 16 to improve blit performance by 200.00%
@@ -26,8 +19,8 @@ Reduce width of animations\player\monkeylad_swim_2.png by 8 pixels to 16 to redu
 For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35934
 Music memory (): 0
-BP Buffer memory: 131040
-core sfx/gfx memory: 25720
+BP Buffer memory: 104832
+core sfx/gfx memory: 17576
 Parallax memory: 0
 
 For other:
@@ -36,12 +29,12 @@ Map header cache memory: 0
 Map data memory: 25344
 Map background memory: 2672
 EXE memory: 203164
-vm memory: 9118
-project memory: 4402
+vm memory: 10038
+project memory: 4220
 
-Accounted memory chip: 192694
-Accounted memory other: 244700
-Accounted memory total: 437394
+Accounted memory chip: 158342
+Accounted memory other: 245438
+Accounted memory total: 403780
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -62,20 +55,20 @@ AnimationFrame Count: 37
 AnimationFrame Data Size: 592
 ImageFrames: 38
 ImageFrame Data Size: 1672
-Sprites: 24
-Sprites Data Size: 336
+Sprites: 11
+Sprites Data Size: 154
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 30
-Asset bundle 0 (Core project asset bundle) Original size 25720 Crunched size 9808
-Asset bundle 1 (level1) Original size 5280 Crunched size 2158
+Asset bundle 0 (Core project asset bundle) Original size 17576 Crunched size 6128
+Asset bundle 1 (level1) Original size 4864 Crunched size 2180
 Background for map level1 Original size 2672 Crunched size 92
-Tile data for map level1 (mem restrictions:None) Original size 25344 Crunched size 1482
-Header data for map level1 Original size 7996 Crunched size 268
-Project Data Original size 4402 Crunched size 1370
+Tile data for map level1 (mem restrictions:None) Original size 25344 Crunched size 1780
+Header data for map level1 Original size 7996 Crunched size 278
+Project Data Original size 4220 Crunched size 1206
 Project Header Original size 4032 Crunched size 1190
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
-Project virtual machine (codeblocks) Original size 9118 Crunched size 2730
+Project virtual machine (codeblocks) Original size 10038 Crunched size 3000
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -93,11 +86,11 @@ ghost_anim
 
 === Possibly unused Actors ===
 player
-rock
 
 === Codeblocks by compiled size ===
 load_level: 920
-spawn_walls: 740
+spawn_walls: 796
+spawn_clouds: 692
 player_handler: 526
 set_yresolution: 448 (Unused?)
 fn_setvine: 408
@@ -107,17 +100,18 @@ flipxymove: 306 (Unused?)
 pause: 252
 pre_startup: 194
 snap_to_screen: 190 (Unused?)
+cloud_handler: 188
 flipymove: 174 (Unused?)
+player_collide: 170
 rock_handler: 168
 flipxmove: 158 (Unused?)
 startup: 152
 load_panel: 146
 pre_quit: 146
-spawn_clouds: 130
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 118
 unload_level: 114
-cloud_handler: 106
+level_handler: 100
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 waitforfireup: 94
@@ -145,7 +139,6 @@ load_panel_finish: 56
 destroy_actor: 54
 regenerate_screen: 52
 return: 52 (Unused?)
-level_handler: 52
 destroy_block: 48 (Unused?)
 regenerate_screen_wait: 42
 vm_registers: 26 (Unused?)

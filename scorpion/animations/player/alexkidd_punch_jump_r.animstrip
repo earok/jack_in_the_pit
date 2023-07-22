@@ -17,7 +17,9 @@
       "PaletteLine": 0,
       "Multiplexes": 0,
       "SpriteType": "Attached_16colors",
-      "RenderType": "AutoSprite"
+      "RenderType": "Normal",
+      "HighPriority": false,
+      "Background": false
     }
   ],
   "PreventMovement": false,
@@ -27,9 +29,5 @@
   "LinkedMap": null,
   "OnFinish": null,
   "AutoFlip": true,
-  "AutoSprite": false,
-  "OnlySprite": false,
-  "Multiplexes": 0,
-  "SpriteType": "Attached_16colors",
-  "RenderType": "Normal"
+  "Streamed": true
 }

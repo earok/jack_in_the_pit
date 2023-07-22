@@ -115,7 +115,7 @@
   "SpeedLeft": 2.0,
   "SpeedRight": 2.0,
   "SpeedUp": 5.0,
-  "SpeedDown": 5.0,
+  "SpeedDown": 4.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": 0.2,

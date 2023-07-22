@@ -139,7 +139,7 @@
   "JumpSound": null,
   "DivertAttack": null,
   "DivertSpawn": null,
-  "DivertPlayerCollision": null,
+  "DivertPlayerCollision": "player_collide",
   "DivertPlayerHit": null,
   "DivertHitAgainstPlayer": null,
   "DivertProjectileCollision": null,
