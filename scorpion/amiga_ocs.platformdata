@@ -1,9 +1,9 @@
 {
   "OutputSpeed": "PAL_50HZ",
   "GFXMode": "BP4",
-  "MemorySaver": "None",
+  "MemorySaver": "EndRun",
   "EmulatedAmiga": "A1200",
-  "EmulatedFastRam": 0,
+  "EmulatedFastRam": 2,
   "WinUAEConfiguration": null,
   "SpriteMode": "Mode_0_16_Wide",
   "Uses24BitColor": null,
@@ -12,11 +12,11 @@
   "FMode": 0,
   "Width": 256,
   "XOffset": 32,
-  "XFillSize": 24,
+  "XFillSize": 18,
   "YFillSize": 17,
   "Implode": true,
-  "MapCache": false,
-  "DoubleCopper": true,
+  "MapCache": true,
+  "DoubleCopper": false,
   "AllocateMemoryUpfront": true,
   "NTSC": false
 }

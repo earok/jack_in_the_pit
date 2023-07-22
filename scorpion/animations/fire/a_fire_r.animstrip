@@ -1,8 +1,8 @@
 {
   "Frames": [
     {
-      "Path": "left3.png",
-      "Duration": 0,
+      "Path": "fire.png",
+      "Duration": 5,
       "HandleX": 0,
       "HandleY": 0,
       "XFlipped": false,
@@ -16,10 +16,10 @@
       "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,
-      "SpriteType": "Channel_6_to_1",
-      "RenderType": "OnlySprite",
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
       "HighPriority": false,
-      "Background": true
+      "Background": false
     }
   ],
   "PreventMovement": false,

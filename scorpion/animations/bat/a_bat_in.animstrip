@@ -1,0 +1,201 @@
+{
+  "Frames": [
+    {
+      "Path": "bat_in_1.png",
+      "Duration": 12,
+      "HandleX": -5,
+      "HandleY": -5,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_2.png",
+      "Duration": 12,
+      "HandleX": -6,
+      "HandleY": -6,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_3.png",
+      "Duration": 12,
+      "HandleX": -6,
+      "HandleY": -6,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_4.png",
+      "Duration": 12,
+      "HandleX": -7,
+      "HandleY": -7,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_5.png",
+      "Duration": 12,
+      "HandleX": -8,
+      "HandleY": -8,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_6.png",
+      "Duration": 12,
+      "HandleX": -9,
+      "HandleY": -9,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_7.png",
+      "Duration": 12,
+      "HandleX": -11,
+      "HandleY": -11,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_8.png",
+      "Duration": 12,
+      "HandleX": -13,
+      "HandleY": -13,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    },
+    {
+      "Path": "bat_in_9.png",
+      "Duration": 12,
+      "HandleX": -16,
+      "HandleY": -16,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Channel_2_to_1",
+      "RenderType": "OnlySprite",
+      "HighPriority": false,
+      "Background": true
+    }
+  ],
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": false,
+  "LoopFrame": 0,
+  "LinkedMap": null,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true
+}

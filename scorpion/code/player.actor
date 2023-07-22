@@ -106,16 +106,16 @@
   ],
   "CollBox": {
     "X": -4,
-    "Y": -7,
+    "Y": -23,
     "Width": 8,
-    "Height": 8
+    "Height": 24
   },
   "AttackDelay": 0,
   "ZOrder": 0,
   "SpeedLeft": 2.0,
   "SpeedRight": 2.0,
   "SpeedUp": 5.0,
-  "SpeedDown": 4.0,
+  "SpeedDown": 5.0,
   "AccelLeft": null,
   "AccelRight": null,
   "AccelUp": 0.2,

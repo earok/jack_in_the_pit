@@ -26,4 +26,19 @@
       <property name="Name" value="invisible_solid" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="goal" type="string" />
+    </properties>
+  </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="treasure_chest_topleft" type="string" />
+    </properties>
+  </tile>
+  <tile id="7">
+    <properties>
+      <property name="Name" value="treasure_chest_topright" type="string" />
+    </properties>
+  </tile>
 </tileset>

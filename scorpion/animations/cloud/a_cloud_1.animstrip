@@ -16,7 +16,7 @@
       "OnFrame": null,
       "PaletteLine": 0,
       "Multiplexes": 0,
-      "SpriteType": "Channel_8_to_1",
+      "SpriteType": "Channel_6_to_1",
       "RenderType": "OnlySprite",
       "HighPriority": false,
       "Background": true

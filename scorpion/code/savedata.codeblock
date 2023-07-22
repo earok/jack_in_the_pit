@@ -1,0 +1,15 @@
+{
+  "CompileOrder": 0,
+  "DataVersion": 1,
+  "Variables": [
+    {
+      "Name": "besttime",
+      "Value": "599",
+      "Notes": null,
+      "PrivateSet": false,
+      "Watch": false,
+      "VariableType": "Variable"
+    }
+  ],
+  "Commands": []
+}
