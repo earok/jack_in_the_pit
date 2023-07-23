@@ -1,7 +1,7 @@
-import { Math, Scene } from 'phaser';
+import { Math, Scene } from "phaser";
 
-import { Actor } from './actor';
-import { Player } from './player';
+import { Actor } from "./actor";
+import { Player } from "./player";
 
 export class Enemy extends Actor {
   constructor(
@@ -10,7 +10,7 @@ export class Enemy extends Actor {
     y: number,
     texture: string,
     target: Player,
-    frame?: string | number,
+    frame?: string | number
   ) {
     super(scene, x, y, texture, frame);
 
@@ -24,6 +24,10 @@ export class Enemy extends Actor {
   update(): void {
     if (this.getBody().velocity.x === 0) {
       this.getBody().velocity.x = Phaser.Math.Between(-200, 200);
+    }
+
+    if (this.getBody().velocity.y === 0) {
+      this.getBody().velocity.y = Phaser.Math.Between(-200, 200);
     }
   }
 
