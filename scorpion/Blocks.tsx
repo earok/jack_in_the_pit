@@ -41,4 +41,29 @@
       <property name="Name" value="treasure_chest_topright" type="string" />
     </properties>
   </tile>
+  <tile id="8">
+    <properties>
+      <property name="Name" value="bean" type="string" />
+    </properties>
+  </tile>
+  <tile id="9">
+    <properties>
+      <property name="Name" value="vine_dead_left" type="string" />
+    </properties>
+  </tile>
+  <tile id="10">
+    <properties>
+      <property name="Name" value="vine_dead_up" type="string" />
+    </properties>
+  </tile>
+  <tile id="11">
+    <properties>
+      <property name="Name" value="vine_grow_up" type="string" />
+    </properties>
+  </tile>
+  <tile id="12">
+    <properties>
+      <property name="Name" value="vine_grow_left" type="string" />
+    </properties>
+  </tile>
 </tileset>

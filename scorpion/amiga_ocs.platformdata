@@ -1,7 +1,7 @@
 {
   "OutputSpeed": "PAL_50HZ",
   "GFXMode": "BP4",
-  "MemorySaver": "EndRun",
+  "MemorySaver": "None",
   "EmulatedAmiga": "A1200",
   "EmulatedFastRam": 2,
   "WinUAEConfiguration": null,

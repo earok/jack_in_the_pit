@@ -29,29 +29,29 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35934
 Music memory (dor_castle_00121): 81676
 BP Buffer memory: 78624
-core sfx/gfx memory: 25692
+core sfx/gfx memory: 26588
 Parallax memory: 0
 
 For other:
-Map cache memory: 2532
-Map header cache memory: 2532
+Map cache memory: 2528
+Map header cache memory: 2528
 Map data memory: 25344
 Map background memory: 2672
 EXE memory: 203164
-vm memory: 12374
-project memory: 7116
+vm memory: 12690
+project memory: 7596
 
-Accounted memory chip: 221926
-Accounted memory other: 255734
-Accounted memory total: 477660
+Accounted memory chip: 222822
+Accounted memory other: 256522
+Accounted memory total: 479344
 
 === Misc ===
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 13
 Actor Data Size: 2444
-Block Count: 9
-Block Data Size: 468
+Block Count: 14
+Block Data Size: 728
 Anim5 Count: 0
 Anim5 Data Size: 0
 Sound Count: 1
@@ -62,24 +62,24 @@ Animations Count: 30
 Animations Data Size: 480
 AnimationFrame Count: 52
 AnimationFrame Data Size: 832
-ImageFrames: 55
-ImageFrame Data Size: 2420
+ImageFrames: 60
+ImageFrame Data Size: 2640
 Sprites: 20
 Sprites Data Size: 280
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 44
-Asset bundle 0 (Core project asset bundle) Original size 25692 Crunched size 10710
+Asset bundle 0 (Core project asset bundle) Original size 26588 Crunched size 11196
 Asset bundle 1 (level1) Original size 23424 Crunched size 8152
 Background for map level1 Original size 2672 Crunched size 92
 Music file dor_castle_00121 Original size 81676 Crunched size 49446
-Tile data for map level1 (mem restrictions:None) Original size 25344 Crunched size 2532
+Tile data for map level1 (mem restrictions:None) Original size 25344 Crunched size 2528
 Header data for map level1 Original size 7996 Crunched size 286
-Project Data Original size 7116 Crunched size 2144
-Project Header Original size 4032 Crunched size 1194
+Project Data Original size 7596 Crunched size 2224
+Project Header Original size 4032 Crunched size 1198
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
 Panel scorepanel Original size 4582 Crunched size 474
-Project virtual machine (codeblocks) Original size 12374 Crunched size 3874
+Project virtual machine (codeblocks) Original size 12690 Crunched size 4024
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
@@ -100,40 +100,44 @@ player
 
 === Codeblocks by compiled size ===
 load_level: 920
-player_handler: 848
+player_handler: 856
 spawn_walls: 686
 level_handler: 676
 spawn_clouds: 592
 set_yresolution: 448 (Unused?)
-fn_setvine: 408
 do_teleport: 392
+startup: 348
 flipscreen_smooth: 346 (Unused?)
 player_collide: 336
-startup: 330
 flipxymove: 306 (Unused?)
 pause: 252
 bat_in_handler: 250
 refresh_time: 210
+fn_killblock: 198
 pre_startup: 194
+fn_setvine: 194
 bat_in_spawn: 192
 snap_to_screen: 190 (Unused?)
 cloud_handler: 188
 flipymove: 174 (Unused?)
 goal: 174
-rock_handler: 168
 flipxmove: 158
 load_panel: 146
 pre_quit: 146
+rock_handler: 126
 destroy_all_blocks: 124 (Unused?)
 pre_load_level: 118
 unload_level: 114
-giant_kill: 114
+fn_spawnbean: 108
+giant_kill: 98
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
 waitforfireup: 94
 unload_panel: 92
 wrap_screen_bottom: 92 (Unused?)
 wrap_screen_right: 92 (Unused?)
+fn_grow_left: 92
+fn_grow_up: 92
 waitforfiredown: 90
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_None: 90
 AUTOGEN_OUTOFSCREEN_flipxmove_flipxmove_None_None: 90
@@ -146,6 +150,7 @@ waitforfirehit: 86
 fadeout: 84
 wall_handler: 84
 waitforframes: 78
+getbean: 68
 quit: 66 (Unused?)
 destroy_all_actors: 62 (Unused?)
 jump_actor: 62 (Unused?)
