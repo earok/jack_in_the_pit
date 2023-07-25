@@ -6,20 +6,10 @@ Reduce width of animations\bat\bat_in_5.png by 1 pixels to 16 to reduce sprites 
 Reduce width of animations\bat\bat_in_6.png by 3 pixels to 16 to reduce sprites by 1
 Reduce width of animations\bat\bat_in_7.png by 6 pixels to 16 to reduce sprites by 1
 Reduce width of animations\bat\bat_in_8.png by 11 pixels to 16 to reduce sprites by 1
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_punch.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_idle.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_idle.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_1.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_1.png by 8 pixels to 16 to reduce sprites by 2
-Reduce width of animations\player\monkeylad_swim_2.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_2.png by 8 pixels to 16 to reduce sprites by 2
-Reduce width of animations\player\monkeylad_swim_1.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_1.png by 8 pixels to 16 to reduce sprites by 2
-Reduce width of animations\player\monkeylad_swim_2.png by 8 pixels to 16 to improve blit performance by 200.00%
-Reduce width of animations\player\monkeylad_swim_2.png by 8 pixels to 16 to reduce sprites by 2
+Reduce width of animations\giant\giant-human2.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\giant\giant-human4.png by 3 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\giant\giant-human2.png by 1 pixels to 16 to improve blit performance by 200.00%
+Reduce width of animations\giant\giant-human4.png by 3 pixels to 16 to improve blit performance by 200.00%
 Reduce width of animations\sun\sun-big.png by 12 pixels to 16 to reduce sprites by 1
 Reduce width of animations\sun\sun-big2.png by 14 pixels to 16 to reduce sprites by 1
 
@@ -29,21 +19,21 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35934
 Music memory (dor_castle_00121): 81676
 BP Buffer memory: 78624
-core sfx/gfx memory: 26588
+core sfx/gfx memory: 34654
 Parallax memory: 0
 
 For other:
-Map cache memory: 2528
-Map header cache memory: 2528
+Map cache memory: 2574
+Map header cache memory: 2574
 Map data memory: 25344
 Map background memory: 2672
-EXE memory: 203164
-vm memory: 12690
-project memory: 7596
+EXE memory: 203320
+vm memory: 13228
+project memory: 7220
 
-Accounted memory chip: 222822
-Accounted memory other: 256522
-Accounted memory total: 479344
+Accounted memory chip: 230888
+Accounted memory other: 256932
+Accounted memory total: 487820
 
 === Misc ===
 Maps and Asset Bundles Count: 2
@@ -54,67 +44,60 @@ Block Count: 14
 Block Data Size: 728
 Anim5 Count: 0
 Anim5 Data Size: 0
-Sound Count: 1
-Sound Data Size: 24
+Sound Count: 5
+Sound Data Size: 120
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 30
-Animations Data Size: 480
-AnimationFrame Count: 52
-AnimationFrame Data Size: 832
-ImageFrames: 60
-ImageFrame Data Size: 2640
-Sprites: 20
-Sprites Data Size: 280
+Animations Count: 20
+Animations Data Size: 320
+AnimationFrame Count: 58
+AnimationFrame Data Size: 928
+ImageFrames: 52
+ImageFrame Data Size: 2288
+Sprites: 16
+Sprites Data Size: 224
 Attack Data: 1
 Attack Data Size: 66
 Misc data size: 44
-Asset bundle 0 (Core project asset bundle) Original size 26588 Crunched size 11196
-Asset bundle 1 (level1) Original size 23424 Crunched size 8152
+Asset bundle 0 (Core project asset bundle) Original size 34654 Crunched size 15754
+Asset bundle 1 (level1) Original size 26240 Crunched size 8802
 Background for map level1 Original size 2672 Crunched size 92
 Music file dor_castle_00121 Original size 81676 Crunched size 49446
-Tile data for map level1 (mem restrictions:None) Original size 25344 Crunched size 2528
-Header data for map level1 Original size 7996 Crunched size 286
-Project Data Original size 7596 Crunched size 2224
-Project Header Original size 4032 Crunched size 1198
+Tile data for map level1 (mem restrictions:None) Original size 25344 Crunched size 2574
+Header data for map level1 Original size 7996 Crunched size 284
+Project Data Original size 7220 Crunched size 2030
+Project Header Original size 4032 Crunched size 1202
 Panel scorpion_eng_splashscreen Original size 35934 Crunched size 3268
 Panel scorepanel Original size 4582 Crunched size 474
-Project virtual machine (codeblocks) Original size 12690 Crunched size 4024
+Project virtual machine (codeblocks) Original size 13228 Crunched size 4250
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Possibly unused animations ===
-alexkidd_punch_jump_r
-alexkidd_punch_jump_l
-alexkidd_punch_r
-alexkidd_punch_l
-alexkidd_swim_attack_r
-alexkidd_swim_attack_l
-alexkidd_swim_idle_r
-alexkidd_swim_idle_l
-alexkidd_swim_r
-alexkidd_swim_l
 ghost_anim
 
 === Possibly unused Actors ===
 player
 
+=== Possibly unused sound effects ===
+sfx_jump
+
 === Codeblocks by compiled size ===
 load_level: 920
 player_handler: 856
+level_handler: 692
 spawn_walls: 686
-level_handler: 676
 spawn_clouds: 592
+bat_in_handler: 578
 set_yresolution: 448 (Unused?)
 do_teleport: 392
-startup: 348
+startup: 358
+player_collide: 352
 flipscreen_smooth: 346 (Unused?)
-player_collide: 336
 flipxymove: 306 (Unused?)
 pause: 252
-bat_in_handler: 250
+fn_killblock: 234
+pre_startup: 220
 refresh_time: 210
-fn_killblock: 198
-pre_startup: 194
 fn_setvine: 194
 bat_in_spawn: 192
 snap_to_screen: 190 (Unused?)
@@ -129,6 +112,7 @@ destroy_all_blocks: 124 (Unused?)
 pre_load_level: 118
 unload_level: 114
 fn_spawnbean: 108
+bat_kill: 106
 giant_kill: 98
 load_panel_bottom: 96
 load_panel_top: 96 (Unused?)
@@ -141,17 +125,17 @@ fn_grow_up: 92
 waitforfiredown: 90
 AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_None: 90
 AUTOGEN_OUTOFSCREEN_flipxmove_flipxmove_None_None: 90
-bat_kill: 90
 wrap_screen_left: 88 (Unused?)
 wrap_screen_top: 88 (Unused?)
 flipscreen: 86 (Unused?)
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 fadeout: 84
+getbean: 84
 wall_handler: 84
+fn_clamp_color: 80
 waitforframes: 78
-getbean: 68
-quit: 66 (Unused?)
+quit: 66
 destroy_all_actors: 62 (Unused?)
 jump_actor: 62 (Unused?)
 load_music: 62

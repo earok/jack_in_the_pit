@@ -136,7 +136,7 @@
   "AutoFire": false,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
-  "JumpSound": null,
+  "JumpSound": "sfx_jump",
   "DivertAttack": null,
   "DivertSpawn": null,
   "DivertPlayerCollision": null,

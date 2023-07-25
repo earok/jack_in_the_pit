@@ -1,10 +1,10 @@
 {
   "Frames": [
     {
-      "Path": "king_snake_1.png",
+      "Path": "giant-human2.png",
       "Duration": 5,
       "HandleX": -16,
-      "HandleY": -24,
+      "HandleY": -31,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
@@ -22,10 +22,31 @@
       "Background": false
     },
     {
-      "Path": "king_snake_2.png",
+      "Path": "giant-human3.png",
       "Duration": 5,
       "HandleX": -16,
-      "HandleY": -24,
+      "HandleY": -31,
+      "XFlipped": false,
+      "HitBox": {
+        "X": 0,
+        "Y": 0,
+        "Width": 0,
+        "Height": 0
+      },
+      "HasHitBox": false,
+      "OnFrame": null,
+      "PaletteLine": 0,
+      "Multiplexes": 0,
+      "SpriteType": "Attached_16colors",
+      "RenderType": "Normal",
+      "HighPriority": false,
+      "Background": false
+    },
+    {
+      "Path": "giant-human4.png",
+      "Duration": 5,
+      "HandleX": -16,
+      "HandleY": -31,
       "XFlipped": false,
       "HitBox": {
         "X": 0,
